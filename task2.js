@@ -3,7 +3,7 @@ function checkName(name){
         return 'invalid';
     }
 
-    name = name.toLocaleLowerCase();
+    name = name.toLowerCase();
     const char = name[name.length - 1];
     if(['a', 'y', 'i', 'e', 'o', 'u', 'w'].includes(char)){
         return 'Good Name';
@@ -14,4 +14,4 @@ function checkName(name){
     
 }
 
-console.log(checkName(123));
+console.log(checkName('RAFEE'));
