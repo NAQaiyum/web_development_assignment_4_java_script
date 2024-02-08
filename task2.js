@@ -11,7 +11,6 @@ function checkName(name){
     else{
         return 'Bad name';
     }
-
     
 }
 
